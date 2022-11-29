@@ -9,12 +9,21 @@
 
 .toolbar-item{
   display: flex;
-  align-items: center;
-  width: 40%;
-  background-color: antiquewhite;
+  align-items: center;  
+  background-color: #FFFFFF;
+  border-radius: 50px;
   
+}
+
+.toolbar-item:hover{
+  background-color: rgb(245, 245, 245);
 }
 
 .toolbar-item span{
   padding:10px;
+  font-size:1.1rem;
+  margin:20px 0;
+}
+.toolbar-item span:hover:first-child{
+  scale: 1.2;
 }
